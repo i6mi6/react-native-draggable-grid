@@ -15,7 +15,7 @@ interface BlockProps {
   dragStartAnimationStyle: StyleProp<any>
   onPress?: () => void
   onLongPress: () => void
-  delayLongPress: number
+  delayLongPress?: number
   panHandlers: GestureResponderHandlers
 }
 
